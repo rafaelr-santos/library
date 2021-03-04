@@ -1,0 +1,29 @@
+{
+  "files": {
+    "static/js/0.ff74135c.chunk.js": "/Regressao/static/js/0.ff74135c.chunk.js",
+    "static/js/0.ff74135c.chunk.js.map": "/Regressao/static/js/0.ff74135c.chunk.js.map",
+    "main.css": "/Regressao/static/css/main.e837177a.chunk.css",
+    "main.js": "/Regressao/static/js/main.5ebc6ae5.chunk.js",
+    "main.js.map": "/Regressao/static/js/main.5ebc6ae5.chunk.js.map",
+    "runtime-main.js": "/Regressao/static/js/runtime-main.9e171951.js",
+    "runtime-main.js.map": "/Regressao/static/js/runtime-main.9e171951.js.map",
+    "static/js/3.8ccfcda3.chunk.js": "/Regressao/static/js/3.8ccfcda3.chunk.js",
+    "static/js/3.8ccfcda3.chunk.js.map": "/Regressao/static/js/3.8ccfcda3.chunk.js.map",
+    "static/js/4.c9b0667a.chunk.js": "/Regressao/static/js/4.c9b0667a.chunk.js",
+    "static/js/4.c9b0667a.chunk.js.map": "/Regressao/static/js/4.c9b0667a.chunk.js.map",
+    "static/js/5.bd5360da.chunk.js": "/Regressao/static/js/5.bd5360da.chunk.js",
+    "static/js/5.bd5360da.chunk.js.map": "/Regressao/static/js/5.bd5360da.chunk.js.map",
+    "static/js/6.467e6774.chunk.js": "/Regressao/static/js/6.467e6774.chunk.js",
+    "static/js/6.467e6774.chunk.js.map": "/Regressao/static/js/6.467e6774.chunk.js.map",
+    "index.html": "/Regressao/index.html",
+    "static/css/main.e837177a.chunk.css.map": "/Regressao/static/css/main.e837177a.chunk.css.map",
+    "static/js/3.8ccfcda3.chunk.js.LICENSE.txt": "/Regressao/static/js/3.8ccfcda3.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/Regressao/static/media/cmunti-webfont.f190902d.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e171951.js",
+    "static/js/3.8ccfcda3.chunk.js",
+    "static/css/main.e837177a.chunk.css",
+    "static/js/main.5ebc6ae5.chunk.js"
+  ]
+}

@@ -1,0 +1,2 @@
+(this.webpackJsonplibrary=this.webpackJsonplibrary||[]).push([[4],{89:function(e,r,s){"use strict";s.r(r);s(0);var i=s(3);r.default=function(){return Object(i.jsx)("h2",{children:"ME613 Analise de Regressao"})}}}]);
+//# sourceMappingURL=4.46c3eebd.chunk.js.map

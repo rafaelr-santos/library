@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("fonts/computer-modern/cmunrm-webfont.woff") format('woff');
+}
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("fonts/computer-modern/cmunbx-webfont.woff") format('woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("fonts/computer-modern/cmunti-webfont.woff") format('woff');
+  font-style: italic;
+}
+@font-face {
+  font-family: "Computer Modern Serif";
+  src: url("fonts/computer-modern/cmunbi-webfont.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Regular-webfont.woff") format('woff');
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Bold-webfont.woff") format('woff');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-Italic-webfont.woff") format('woff');
+  font-style: italic;
+}
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/roboto/Roboto-BoldItalic-webfont.woff") format('woff');
+  font-weight: bold;
+  font-style: italic;
+}
+
+
+
+* {
+  /* font-family: "Roboto"; */
+  font-family: "Computer Modern Serif";
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.article {
+  font-size: 50;
+}

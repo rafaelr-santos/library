@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/subjects/me705/articles/Resumo.js"],"names":["Resumo"],"mappings":"qGAAA,sEAEe,SAASA,IAAU,OAClC","file":"static/js/20.e4c6467b.chunk.js","sourcesContent":["import React from 'react';\r\nimport Latex from 'react-latex';\r\nexport default function Resumo(){ return( \r\n<>\r\n</>\r\n)}"],"sourceRoot":""}

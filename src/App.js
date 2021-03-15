@@ -23,8 +23,8 @@ function App() {
                 <Route exact path="/subject/:subject">
                     <Subject />
                 </Route>
-                <Route exact path="/subject/:folder/:article">
-                    <Article/>
+                <Route exact path="/subject/:subject/:article">
+                    <Subject />
                 </Route>
             </Switch>
         </HashRouter>

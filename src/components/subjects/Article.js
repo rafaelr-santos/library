@@ -1,12 +1,11 @@
 import React, { lazy, useEffect, useState } from 'react';
-import { useParams } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
 import { Container } from '@material-ui/core';
+import Box from '@material-ui/core/Box';
 
 const useStyles = makeStyles(
     {
         root: {
-            fontSize: 13
         }
     } 
 );
@@ -19,9 +18,7 @@ const importArticle = (folder, article) =>
     )
 );
 
-const Article = () => {
-    const {article, folder} = useParams();
-
+const Article = ({article, folder}) => {
     const [articlePage, setArticlePage] = useState([]);
 
     let atualArticle = useState('');
@@ -50,9 +47,7 @@ const Article = () => {
 
     return (
         <React.Suspense fallback='Carregando conteúdo do artigo...'>
-            <Container classes={{ root : classes.root }} >
-                {articlePage}
-            </Container>
+            {articlePage}
         </React.Suspense>
     );
 }

@@ -1,6 +1,7 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import { Link } from "react-router-dom";
+import useScrollTrigger from '@material-ui/core/useScrollTrigger';
 import Box from '@material-ui/core/Box';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
@@ -16,8 +17,23 @@ const useStyles = makeStyles( (theme) => ( {
 }));
 
 
-
-const Navbar = () => {
+function ElevationScroll(props) {
+    const { children, window } = props;
+    // Note that you normally won't need to set the window ref as useScrollTrigger
+    // will default to window.
+    // This is only being set here because the demo is in an iframe.
+    const trigger = useScrollTrigger({
+        disableHysteresis: true,
+        threshold: 0,
+        target: window ? window() : undefined,
+    });
+  
+    return React.cloneElement(children, {
+        elevation: trigger ? 4 : 0,
+    });
+}
+  
+const Navbar = ({props}) => {
 
     const classes = useStyles();
 
@@ -35,22 +51,25 @@ const Navbar = () => {
     return(
         <>
             <LibraryMenuDrawer open={drawerState} toggleDrawer = {toggleDrawer} />
-            <AppBar position="static" className={classes.navbar}>
-                <Toolbar>
-                    
-                    <IconButton edge="start" className="" color="inherit" aria-label="menu" onClick={toggleDrawer(true)}>
-                        <MenuIcon />
-                    </IconButton>
+            <ElevationScroll {...props}>
+                <AppBar className={classes.navbar}>
+                    <Toolbar>
+                        
+                        <IconButton edge="start" className="" color="inherit" aria-label="menu" onClick={toggleDrawer(true)}>
+                            <MenuIcon />
+                        </IconButton>
 
-                    <Box display="flex" justifyContent="flex-end" style={{ width: '100%' }}>
-                        <Link to='/home' replace>
-                            <h3 style={{color:'white'}}>
-                                Biblioteca Home
-                            </h3>
-                        </Link>
-                    </Box>
-                </Toolbar>
-            </AppBar>
+                        <Box display="flex" justifyContent="flex-end" style={{ width: '100%' }}>
+                            <Link to='/home' replace>
+                                <h3 style={{color:'white'}}>
+                                    Biblioteca Home
+                                </h3>
+                            </Link>
+                        </Box>
+                    </Toolbar>
+                </AppBar>
+            </ElevationScroll>
+            
         </>
     )
 }

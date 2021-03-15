@@ -21,8 +21,12 @@ const SubjectListMenuDrawer = () => {
     
     const subjects = [
         {name:"ME613", description:"ME613 - Análise de Regressão"},
-        {name:"ME614", description:"ME614 - Regressão Análise de "},
-        {name:"ME615", description:"ME615 - de Regressão Análise"}
+        {name:"ME623", description:"ME623 - Planejamento e Pesquisa"},
+        {name:"ME705", description:"ME705 - Inferência Bayesiana"},
+        {name:"MS512", description:"MS512 - Análise I"},
+        {name:"ME714", description:"ME714 - Análise de Dados Discretos"},
+        {name:"ME701", description:"ME701 - Green Belt"},
+        {name:"ME721", description:"ME721 - Demografia"},
     ]
     
 

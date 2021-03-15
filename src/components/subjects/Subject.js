@@ -69,21 +69,19 @@ const Subject = ({props}) => {
     }, [atualSubject, article]);
 
     return (
-        <Box my={5} p={3} justifyContent='center'>
-            <Grid container spacing={2}>
-                <Grid item xs={3}>
-                    <React.Suspense fallback='Carregando conteúdo da matéria...'>
-                        {subjectPage}
-                    </React.Suspense>
-                </Grid>
-
-                <Grid item xs={9}>
-                    <>
-                    { article ? <Article folder={subject} article={article}/> : <Article folder={subject} article={'Info'}/> }
-                    </>
-                </Grid>
+        <Grid container spacing={2}>
+            <Grid item xs={3}>
+                <React.Suspense fallback='Carregando conteúdo da matéria...'>
+                    {subjectPage}
+                </React.Suspense>
             </Grid>
-        </Box>
+
+            <Grid item xs={9}>
+                <>
+                { article ? <Article folder={subject} article={article}/> : <Article folder={subject} article={'Info'}/> }
+                </>
+            </Grid>
+        </Grid>
     );
 }
 

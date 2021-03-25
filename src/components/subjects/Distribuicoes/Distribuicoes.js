@@ -5,22 +5,22 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-const ME613 = () => {
+const Distribuicoes = () => {
 
     return (
         <>
-            <Link to='/subject/ME721/Info' replace>
+            <Link to='/subject/Distribuicoes/Info' replace>
                 <h3>
-                    ME721 - Demografia
+                    Distribuições de Probabilidade
                 </h3>
             </Link>
             <Divider />
 
             <List>
-                <Link to='/subject/ME721/Resumo' replace>
+                <Link to='/subject/Distribuicoes' replace>
                     <ListItem button key={1}>
                         <ListItemText>
-                            Resumo
+                            aloalo
                         </ListItemText>
                     </ListItem>
                 </Link>
@@ -29,4 +29,4 @@ const ME613 = () => {
     );
 }
 
-export default ME613;
+export default Distribuicoes;

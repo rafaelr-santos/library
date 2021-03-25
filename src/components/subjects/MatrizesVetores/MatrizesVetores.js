@@ -5,22 +5,29 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-const ME613 = () => {
+const MatrizesVetores = () => {
 
     return (
         <>
-            <Link to='/subject/ME714/Info' replace>
+            <Link to='/subject/MatrizesVetores/Info' replace>
                 <h3>
-                    ME714 - Análise de Dados Discretos
+                    Matrizes e Vetores
                 </h3>
             </Link>
             <Divider />
 
             <List>
-                <Link to='/subject/ME714/Epidemiologia' replace>
+                <Link to='/subject/MatrizesVetores/NormasVetores' replace>
                     <ListItem button key={1}>
                         <ListItemText>
-                            Epidemiologia
+                            Normas de Vetores
+                        </ListItemText>
+                    </ListItem>
+                </Link>
+                <Link to='/subject/MatrizesVetores/NormasMatrizes' replace>
+                    <ListItem button key={1}>
+                        <ListItemText>
+                            Normas de Matrizes
                         </ListItemText>
                     </ListItem>
                 </Link>
@@ -29,4 +36,4 @@ const ME613 = () => {
     );
 }
 
-export default ME613;
+export default MatrizesVetores;

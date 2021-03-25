@@ -29,7 +29,7 @@ function ElevationScroll(props) {
 
 const importSubject = (subject) => {
     return lazy(
-        () => import(`./${subject.toLowerCase()}/${subject}.js`).catch(
+        () => import(`./${subject}/${subject}.js`).catch(
             () => console.log("deu pau na hora de pegar a matéria")
         )
     );

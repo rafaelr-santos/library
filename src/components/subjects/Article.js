@@ -12,7 +12,7 @@ const useStyles = makeStyles(
 
 const importArticle = (folder, article) =>
     lazy(() =>
-        import(`./${folder.toLowerCase()}/articles/${article}.js`).catch(() =>
+        import(`./${folder}/articles/${article}.js`).catch(() =>
         //import(`./views/NullView`)
         console.log("deu pau na hora de pegar o artigo")
     )

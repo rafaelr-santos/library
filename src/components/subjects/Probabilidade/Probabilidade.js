@@ -5,22 +5,22 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-const ME613 = () => {
+const Probabilidade = () => {
 
     return (
         <>
-            <Link to='/subject/ME701/Info' replace>
+            <Link to='/subject/Probabilidade/Info' replace>
                 <h3>
-                    ME701 - Green Belt
+                    Resultados de Probabilidade
                 </h3>
             </Link>
             <Divider />
 
             <List>
-                <Link to='/subject/ME701/Resumo' replace>
+                <Link to='/subject/Probabilidade/TeoremaDeBayes' replace>
                     <ListItem button key={1}>
                         <ListItemText>
-                            Resumo
+                            Teorema de Bayes
                         </ListItemText>
                     </ListItem>
                 </Link>
@@ -29,4 +29,4 @@ const ME613 = () => {
     );
 }
 
-export default ME613;
+export default Probabilidade;

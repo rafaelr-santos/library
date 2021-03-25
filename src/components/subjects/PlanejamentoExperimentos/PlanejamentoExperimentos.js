@@ -5,26 +5,26 @@ import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
 import ListItemText from '@material-ui/core/ListItemText';
 
-const ME613 = () => {
+const PlanejamentoExperimentos = () => {
 
     return (
         <>
-            <Link to='/subject/ME623/Info' replace>
+            <Link to='/subject/PlanejamentoExperimentos/Info' replace>
                 <h3>
-                    ME623 - Planejamento e Pesquisa
+                    Planjemento de Experimentos
                 </h3>
             </Link>
             <Divider />
 
             <List>
-                <Link to='/subject/ME623/GuiaDeExperimentos' replace>
+                <Link to='/subject/PlanejamentoExperimentos/GuiaDeExperimentos' replace>
                     <ListItem button key={1}>
                         <ListItemText>
                             Guia de Experimentos
                         </ListItemText>
                     </ListItem>
                 </Link>
-                <Link to='/subject/ME623/Definicoes' replace>
+                <Link to='/subject/PlanejamentoExperimentos/Definicoes' replace>
                     <ListItem button key={1}>
                         <ListItemText>
                             Definições
@@ -36,4 +36,4 @@ const ME613 = () => {
     );
 }
 
-export default ME613;
+export default PlanejamentoExperimentos;

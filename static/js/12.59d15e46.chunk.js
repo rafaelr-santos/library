@@ -1,2 +1,0 @@
-(this.webpackJsonplibrary=this.webpackJsonplibrary||[]).push([[12],{108:function(e,t,r){"use strict";r.r(t);r(0);var c=r(70),i=r(98),n=r(2),s=Object(c.a)({noArticle:{fontSize:20}});t.default=function(){var e=s();return Object(n.jsx)(i.a,{classes:{root:e.noArticle},children:Object(n.jsx)("h1",{children:"Nenhum item selecionado :( "})})}}}]);
-//# sourceMappingURL=12.59d15e46.chunk.js.map

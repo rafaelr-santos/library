@@ -1,18 +1,14 @@
 import React, { lazy, useEffect, useState } from 'react';
-import { HashRouter, Route, Switch } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import { makeStyles } from '@material-ui/core/styles';
-import { Container } from '@material-ui/core';
-import Paper from '@material-ui/core/Paper';
 import useScrollTrigger from '@material-ui/core/useScrollTrigger';
-import Box from '@material-ui/core/Box';
 import Grid from '@material-ui/core/Grid';
 import Article from './Article';
 
 const useStyles = makeStyles(
     {
         root : {
-            width : '100%'
+            width : '100%',
         }
     } 
 );
@@ -69,7 +65,7 @@ const Subject = ({props}) => {
     }, [atualSubject, article]);
 
     return (
-        <Grid container spacing={2}>
+        <Grid container spacing={2} className={classes.root}>
             <Grid item xs={3}>
                 <React.Suspense fallback='Carregando conteúdo da matéria...'>
                     {subjectPage}

@@ -17,10 +17,17 @@ const ME613 = () => {
             <Divider />
 
             <List>
-                <Link to='/subject/MS512/Resumo' replace>
+                <Link to='/subject/MS512/NormasVetores' replace>
                     <ListItem button key={1}>
                         <ListItemText>
-                            Resumo
+                            Normas de Vetores
+                        </ListItemText>
+                    </ListItem>
+                </Link>
+                <Link to='/subject/MS512/NormasMatrizes' replace>
+                    <ListItem button key={1}>
+                        <ListItemText>
+                            Normas de Matrizes
                         </ListItemText>
                     </ListItem>
                 </Link>

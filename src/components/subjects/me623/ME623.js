@@ -17,10 +17,17 @@ const ME613 = () => {
             <Divider />
 
             <List>
-                <Link to='/subject/ME623/Resumo' replace>
+                <Link to='/subject/ME623/GuiaDeExperimentos' replace>
                     <ListItem button key={1}>
                         <ListItemText>
-                            Resumo
+                            Guia de Experimentos
+                        </ListItemText>
+                    </ListItem>
+                </Link>
+                <Link to='/subject/ME623/Definicoes' replace>
+                    <ListItem button key={1}>
+                        <ListItemText>
+                            Definições
                         </ListItemText>
                     </ListItem>
                 </Link>

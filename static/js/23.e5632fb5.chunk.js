@@ -1,0 +1,2 @@
+(this.webpackJsonplibrary=this.webpackJsonplibrary||[]).push([[23],{125:function(i,r,s){"use strict";s.r(r);s(0);var t=s(97),e=s(2);r.default=function(){return Object(e.jsx)(t.a,{children:Object(e.jsx)("h1",{children:"Links \xdateis"})})}}}]);
+//# sourceMappingURL=23.e5632fb5.chunk.js.map
